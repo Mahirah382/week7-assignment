@@ -24,7 +24,7 @@ export default function AddRecipe() {
                 <textarea className="border p-2 rounded" value={ingredients} onChange={e => setIngredients(e.currentTarget.value)} placeholder="Ingredients"/>
                 <textarea className="border p-2 rounded" value={instructions} onChange={e => setInstructions(e.target.value)} placeholder="Instructions"/>
                 <input className="border p-2 rounded" value={image_url} onChange={e => setImage_url(e.target.value)} placeholder="Image URL" />
-                <button type="submit" className="bg-green-700 text-white py-2 rounded hover:bg-pink-800">Add Recipe</button>
+                <button type="submit" className="bg-green-700 text-white py-2 rounded hover:bg-green-900">Add Recipe</button>
             </form>
         </div>
     )

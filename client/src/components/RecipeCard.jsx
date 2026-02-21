@@ -1,6 +1,6 @@
 import { Link } from "react-router"
 
-export default function RecipeCard({recipe}) {
+export default function RecipeCard({recipe, onDelete}) {
 
     return(
         <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition p-5 border border-gray-200">

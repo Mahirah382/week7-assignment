@@ -13,10 +13,12 @@ Frontend
 - React
 - React Router
 - TailwindCSS
+
 Backend
 - Node.js
 - Express
 - pg (PostgreSQL client)
+
 Database
 - Supabase (PostgreSQL)
 
